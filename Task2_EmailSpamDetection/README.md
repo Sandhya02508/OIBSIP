@@ -1,14 +1,21 @@
 # 📧 Email Spam Detection using Machine Learning
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Project-green)
+
+A Machine Learning project that classifies emails as **Spam** or **Not Spam (Ham)** using Natural Language Processing (NLP) techniques.
+
+---
+
 ## 📌 Project Overview
 
-This project focuses on classifying emails as **Spam** or **Not Spam (Ham)** using Machine Learning. It demonstrates how text data can be processed and used for building a predictive model.
+This project focuses on building a classification model to detect spam emails. It demonstrates how text data can be preprocessed, analyzed, and used to train a machine learning model for accurate predictions.
 
 ---
 
 ## 🎯 Problem Statement
 
-Spam emails are a common issue in digital communication. The goal of this project is to build a machine learning model that can automatically identify whether an email is spam or not.
+Spam emails are a major problem in digital communication. The objective of this project is to develop a model that can automatically classify emails as spam or not spam.
 
 ---
 
@@ -17,9 +24,9 @@ Spam emails are a common issue in digital communication. The goal of this projec
 * The dataset contains labeled email messages
 * Two categories:
 
-  * Spam (1)
-  * Not Spam (0)
-* Text data is used as the main feature
+  * **Spam (1)**
+  * **Not Spam (0)**
+* Text content is used as the primary feature
 
 ---
 
@@ -28,7 +35,7 @@ Spam emails are a common issue in digital communication. The goal of this projec
 ### 1. Data Loading & Understanding
 
 * Imported dataset using Pandas
-* Checked structure and basic information
+* Explored structure and basic information
 
 ### 2. Data Cleaning
 
@@ -45,19 +52,20 @@ Spam emails are a common issue in digital communication. The goal of this projec
 
 ### 5. Model Building
 
-* Used **Multinomial Naive Bayes** algorithm for classification
+* Implemented **Multinomial Naive Bayes** for classification
 
 ### 6. Model Evaluation
 
 * Split data into training and testing sets
-* Evaluated model using accuracy score
+* Evaluated performance using accuracy score
 
 ---
 
 ## 📈 Results
 
-* ✅ **Accuracy: 97.48%**
-* The model performs very well in distinguishing spam and non-spam emails.
+🚀 **Model Accuracy: 97.48%**
+
+The model performs very well in distinguishing spam and non-spam emails.
 
 ---
 
@@ -65,10 +73,12 @@ Spam emails are a common issue in digital communication. The goal of this projec
 
 The model successfully predicts whether a message is spam or not.
 
-### Example:
+**Example Prediction:**
 
-* Input: *"Congratulations! You won a free lottery ticket"*
-* Output: **Spam**
+* Input: "Congratulations! You won a free lottery ticket"
+* Output: Spam
+
+### Output Screenshot
 
 ![Output Screenshot](output.png)
 
@@ -85,14 +95,29 @@ The model successfully predicts whether a message is spam or not.
 
 ---
 
+## 📂 Project Structure
+
+* `spam_detection.ipynb`
+* `README.md`
+* `output.png`
+
+---
+
 ## 🚀 Conclusion
 
-This project demonstrates how machine learning can be applied to text classification problems like spam detection with high accuracy.
+This project shows how machine learning can be effectively applied to text classification problems like spam detection with high accuracy.
 
 ---
 
 ## 🔮 Future Scope
 
-* Improve text preprocessing
-* Try advanced models like Logistic Regression or Deep Learning
-* Deploy the model as a web application
+* Improve text preprocessing techniques
+* Experiment with advanced models (Logistic Regression, Deep Learning)
+* Deploy as a web application using Streamlit or Flask
+
+---
+
+## 👩‍💻 Author
+
+* Sandhya
+
